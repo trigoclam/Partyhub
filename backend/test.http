@@ -1,0 +1,34 @@
+### Crear un evento
+POST http://localhost:3000/api/events
+Content-Type: application/json
+
+{
+  "name": "Fiesta de Adrià",
+  "date": "2025-02-14",
+  "location": "San Pol de Mar",
+  "description": "¡Fiesta playera con amigos!"
+}
+
+### Obtener todos los eventos
+GET http://localhost:3000/api/events
+
+
+
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "pruebauser",
+  "email": "prueba@example.com",
+  "password": "123456"
+}
+
+
+### Login de usuario
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "prueba@example.com",
+  "password": "123456"
+}
